@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#17211e">
-  <meta name="description" content="김민수의 백엔드 개발 포트폴리오. TACO ERP, AI Edu LMS, VA-AFS와 경력·학력을 정리했습니다.">
+  <meta name="description" content="AI·백엔드 개발자 김민수의 포트폴리오. 서비스 개발과 영상 처리 연구, 경력·학력을 정리했습니다.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:title" content="김민수 | 백엔드 개발자">
-  <meta property="og:description" content="프로젝트, 경력, 학력과 연락처를 확인할 수 있습니다.">
+  <meta property="og:title" content="김민수 | AI·백엔드 개발자">
+  <meta property="og:description" content="서비스 개발과 영상 처리 연구, 경력과 학력을 정리했습니다.">
   <meta property="og:url" content="https://kiim-miin-su.github.io/github.io/">
   <meta property="og:image" content="https://kiim-miin-su.github.io/github.io/og-image.svg">
   <link rel="canonical" href="https://kiim-miin-su.github.io/github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
-  <title>김민수 | 백엔드 개발자</title>
+  <title>김민수 | AI·백엔드 개발자</title>
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 바로가기</a>
@@ -45,25 +45,38 @@
     <section class="hero" aria-labelledby="hero-heading">
       <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="hero-kicker">김민수 · 백엔드 개발자</p>
-          <h1 id="hero-heading">학원 운영 ERP를<br>설계하고 구현했습니다</h1>
-          <p class="hero-description">TN Academy에서 일정·출결·상담·회계 업무를 다루는 TACO ERP를 1인 개발했습니다. NestJS, PostgreSQL, Next.js로 API와 화면을 연결했습니다.</p>
+          <p class="hero-kicker">김민수의 포트폴리오</p>
+          <h1 id="hero-heading">AI·백엔드 개발자<br>김민수입니다</h1>
+          <p class="hero-description">NestJS·PostgreSQL 기반 서비스를 만들고, Python·PyTorch로 영상 처리 연구를 진행했습니다. 프로젝트별 구현 내용과 검증 근거를 정리했습니다.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#work">프로젝트 보기 ↗</a>
             <a class="button button-secondary" href="resume.html">이력서 보기</a>
           </div>
         </div>
-        <figure class="hero-visual">
-          <img src="assets/taco-erp-browser.jpg" alt="TACO ERP 공개 체험판의 스케줄과 구성원 시간대 화면" width="1512" height="772">
-          <figcaption>TACO ERP 공개 체험판 · 실제 브라우저 화면</figcaption>
-        </figure>
+        <nav class="hero-projects" aria-label="프로젝트 바로가기">
+          <a class="hero-project-link" href="#project-taco">
+            <span class="hero-project-thumb"><img src="assets/taco-erp-browser.jpg" alt="TACO ERP 공개 체험판 화면" width="1512" height="772"></span>
+            <span><strong>TACO ERP</strong><small>학원 운영 백오피스</small></span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="hero-project-link" href="#project-lms">
+            <span class="hero-project-thumb"><img src="assets/ai-edu-repository.png" alt="AI Edu LMS 공개 저장소 화면" width="1440" height="900"></span>
+            <span><strong>AI Edu LMS</strong><small>교육 플랫폼</small></span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="hero-project-link" href="#project-va-afs">
+            <span class="hero-project-thumb"><img src="assets/va-afs-pdf.png" alt="VA-AFS 발표 자료 도식" width="700" height="600"></span>
+            <span><strong>VA-AFS</strong><small>영상 프레임 샘플링 연구</small></span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
       </div>
     </section>
 
     <section class="work section-pad" id="work" aria-labelledby="work-heading">
       <div class="container">
         <div class="section-heading"><h2 id="work-heading">프로젝트</h2><p>화면과 자료는 실제 작업물에서 가져왔습니다</p></div>
-        <article class="project-feature">
+        <article class="project-feature" id="project-taco">
           <figure class="project-image">
             <img src="assets/taco-erp-teacher.jpg" alt="TACO ERP 공개 체험판의 강사용 학생·교재 화면" width="1512" height="772" loading="lazy">
             <figcaption>공개 체험판 · 강사 화면</figcaption>
@@ -88,7 +101,7 @@
           </div>
         </article>
         <div class="project-grid">
-          <article class="project-card">
+          <article class="project-card" id="project-lms">
             <figure class="project-image">
               <img src="assets/ai-edu-repository.png" alt="AI Edu LMS 프론트엔드 공개 GitHub 저장소의 브라우저 화면" width="1440" height="900" loading="lazy">
               <figcaption>공개 저장소 화면 · 제품 UI 아님</figcaption>
@@ -104,7 +117,7 @@
               </div>
             </div>
           </article>
-          <article class="project-card">
+          <article class="project-card" id="project-va-afs">
             <figure class="project-image project-image-contain">
               <img src="assets/va-afs-pdf.png" alt="VA-AFS 발표 PDF의 영상 프레임, 스켈레톤 좌표와 그래프 도식" width="700" height="600" loading="lazy">
               <figcaption>VA-AFS 발표 PDF · 첫 장의 도식</figcaption>
@@ -127,7 +140,7 @@
         <div><h2 id="about-heading">기본 정보</h2><p class="section-note">프로젝트와 연락처를 확인할 수 있는 공개 정보입니다</p></div>
         <dl class="info-list">
           <div><dt>이름</dt><dd>김민수</dd></div>
-          <div><dt>분야</dt><dd>백엔드 개발 · 웹 서비스</dd></div>
+          <div><dt>분야</dt><dd>AI · 백엔드 개발</dd></div>
           <div><dt>이메일</dt><dd><a href="mailto:kms545487@gmail.com">kms545487@gmail.com ↗</a></dd></div>
           <div><dt>GitHub</dt><dd><a href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">Kiim-Miin-Su ↗</a></dd></div>
           <div><dt>개발 기록</dt><dd><a href="https://kms545487.tistory.com" target="_blank" rel="noopener noreferrer">kms545487.tistory.com ↗</a></dd></div>
@@ -189,6 +202,6 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><span>김민수 · 백엔드 개발자</span><span>© 2026 Kim Minsu</span><a href="#top">맨 위로 ↑</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><span>김민수 · AI·백엔드 개발자</span><span>© 2026 Kim Minsu</span><a href="#top">맨 위로 ↑</a></div></footer>
 </body>
 </html>
