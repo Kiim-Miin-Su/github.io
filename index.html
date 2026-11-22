@@ -3,88 +3,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111c25">
-  <meta name="description" content="김민수 | 백엔드와 AI를 연결하는 개발자. NestJS·Spring Boot·PostgreSQL 프로젝트와 머신러닝 연구를 소개합니다.">
+  <meta name="theme-color" content="#17211e">
+  <meta name="description" content="김민수의 백엔드 개발 포트폴리오. TACO ERP, AI Edu LMS, VA-AFS와 경력·학력을 정리했습니다.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:title" content="김민수 — Backend & AI Engineer">
-  <meta property="og:description" content="서비스를 설계하고, 만들고, 배포하는 개발자 김민수의 작업 기록.">
+  <meta property="og:title" content="김민수 | 백엔드 개발자">
+  <meta property="og:description" content="프로젝트, 경력, 학력과 연락처를 확인할 수 있습니다.">
   <meta property="og:url" content="https://kiim-miin-su.github.io/github.io/">
   <meta property="og:image" content="https://kiim-miin-su.github.io/github.io/og-image.svg">
   <link rel="canonical" href="https://kiim-miin-su.github.io/github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
-  <title>김민수 — Backend & AI Engineer</title>
+  <title>김민수 | 백엔드 개발자</title>
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 바로가기</a>
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="wordmark" href="#top" aria-label="김민수 포트폴리오 처음으로"><span class="wordmark-icon">M<span>.</span></span><span>MIN SU KIM</span></a>
+      <a class="wordmark" href="#top" aria-label="김민수 포트폴리오 처음으로">김민수 <span>Kim Minsu</span></a>
       <nav class="desktop-nav" aria-label="주요 메뉴">
-        <a href="#work">WORK</a><a href="#about">ABOUT</a><a href="#journey">JOURNEY</a><a href="resume.html">RESUME</a><a href="#contact">CONTACT</a>
+        <a href="#work">프로젝트</a>
+        <a href="#about">기본 정보</a>
+        <a href="#journey">경력·학력</a>
+        <a href="resume.html">이력서</a>
+        <a href="#contact">연락처</a>
       </nav>
-      <a class="header-cta" href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a>
+      <a class="header-cta" href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
     </div>
     <nav class="mobile-nav" id="mobile-nav" aria-label="모바일 메뉴" hidden>
-      <a href="#work">프로젝트</a><a href="#about">소개</a><a href="#journey">여정</a><a href="resume.html">이력서</a><a href="#contact">연락하기</a>
+      <a href="#work">프로젝트</a>
+      <a href="#about">기본 정보</a>
+      <a href="#journey">경력·학력</a>
+      <a href="resume.html">이력서</a>
+      <a href="#contact">연락처</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-grid" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="hero-copy">
-          <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> KIM MINSU · BACKEND DEVELOPER</div>
-          <h1 id="hero-heading">김민수.<br><em>제품을 끝까지</em><br>만드는 개발자.</h1>
-          <p class="hero-description">NestJS·PostgreSQL로 학원 운영 ERP를 설계하고, Next.js 화면과 배포까지 연결했습니다. 인공지능공학 연구 경험을 바탕으로 AI를 서비스에 적용하는 백엔드를 공부합니다.</p>
-          <div class="hero-actions"><a class="button button-accent" href="#work">프로젝트 보기 <span aria-hidden="true">↗</span></a><a class="button button-outline" href="resume.html">이력서 보기 <span aria-hidden="true">↗</span></a></div>
-          <div class="hero-meta"><span>2026 · TN ACADEMY / 1인 개발</span><span>BACKEND · PRODUCT · AI</span></div>
+          <p class="hero-kicker">김민수 · 백엔드 개발자</p>
+          <h1 id="hero-heading">학원 운영 ERP를<br>설계하고 구현했습니다</h1>
+          <p class="hero-description">TN Academy에서 일정·출결·상담·회계 업무를 다루는 TACO ERP를 1인 개발했습니다. NestJS, PostgreSQL, Next.js로 API와 화면을 연결했습니다.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">프로젝트 보기 ↗</a>
+            <a class="button button-secondary" href="resume.html">이력서 보기</a>
+          </div>
         </div>
-        <div class="hero-visual hero-proof" aria-label="대표 프로젝트 바로가기">
-          <div class="visual-top"><span class="terminal-dots"><i></i><i></i><i></i></span><span>SELECTED WORK / 2026</span><span>01 — 03</span></div>
-          <a href="https://taco-portfolio.vercel.app" target="_blank" rel="noopener noreferrer" class="proof-row"><span class="proof-index">01 / PRODUCT</span><strong>TACO ERP</strong><span class="proof-desc">1인 개발 · 공개 체험판</span><span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/Kiim-Miin-Su/kit-back" target="_blank" rel="noopener noreferrer" class="proof-row"><span class="proof-index">02 / PLATFORM</span><strong>AI Edu LMS</strong><span class="proof-desc">Next.js · NestJS · Prisma</span><span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/Kiim-Miin-Su/VA-AFS" target="_blank" rel="noopener noreferrer" class="proof-row"><span class="proof-index">03 / RESEARCH</span><strong>VA-AFS</strong><span class="proof-desc">프레임 샘플링 연구</span><span aria-hidden="true">↗</span></a>
-          <div class="visual-bottom"><span><i></i> 코드와 데모로 확인할 수 있는 작업</span><span>EXPLORE ↗</span></div>
-        </div>
+        <figure class="hero-visual">
+          <img src="assets/taco-erp-browser.jpg" alt="TACO ERP 공개 체험판의 스케줄과 구성원 시간대 화면" width="1512" height="772">
+          <figcaption>TACO ERP 공개 체험판 · 실제 브라우저 화면</figcaption>
+        </figure>
       </div>
-      <div class="hero-bottom container"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></div>
     </section>
 
     <section class="work section-pad" id="work" aria-labelledby="work-heading">
-      <div class="container"><div class="section-heading"><div><span class="section-index">01 / SELECTED WORK</span><h2 id="work-heading">만든 것들<span class="heading-period">.</span></h2></div><p>실제로 만든 제품과 공개된 연구를 중심으로 정리했습니다.</p></div>
-        <article class="project-feature"><div class="feature-art" aria-hidden="true"><div class="art-orbit art-orbit-one"></div><div class="art-orbit art-orbit-two"></div><div class="erp-window"><div class="erp-window-top"><span>TACO / WORKSPACE</span><span>● ● ●</span></div><div class="erp-layout"><div class="erp-sidebar"><i></i><i></i><i></i><i></i><i></i></div><div class="erp-panels"><div class="erp-title"></div><div class="erp-stat-row"><i></i><i></i><i></i></div><div class="erp-chart"><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div></div><div class="art-label">FEATURED PROJECT ↗</div></div>
-          <div class="feature-body"><div class="project-number">01 <span>／ PRODUCT · FULL STACK</span></div><h3>TACO ERP</h3><p class="project-subtitle">학원 운영의 복잡함을 하나의 업무 흐름으로.</p><p class="project-description">일정·출결·상담·회계 등의 운영 업무를 다루는 ERP. NestJS API와 PostgreSQL 데이터 모델, Next.js 화면을 설계·구현했습니다. 실제 서비스 코드를 기반으로 합성 데이터만 사용하는 공개 체험판도 만들었습니다.</p><div class="project-proof"><span>기여: 요구사항 분석부터 배포까지 1인 개발</span><span>검증: 공개 데모의 권한별 흐름과 테스트 근거 제공</span></div><div class="tag-list"><span>NestJS</span><span>Next.js</span><span>PostgreSQL</span><span>TypeORM</span></div><div class="project-links"><a href="https://taco-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">라이브 데모 <span aria-hidden="true">↗</span></a><a href="https://github.com/Kiim-Miin-Su/taco-portfolio" target="_blank" rel="noopener noreferrer">소스 코드 <span aria-hidden="true">↗</span></a></div><details class="case-details"><summary>설계와 검증 범위 보기</summary><div class="case-detail-body"><p><strong>문제.</strong> 일정·출결·상담·회계 등의 업무가 분산된 학원 운영 흐름을 하나의 서비스로 정리했습니다.</p><p><strong>구현.</strong> NestJS의 권한·DTO·업무 서비스와 PostgreSQL 데이터를 Next.js 화면에 연결했습니다. 체험판에서는 원본 업무 로직에 합성 데이터만 사용합니다.</p><p><strong>검증 범위.</strong> 공개 문서 기준 통합 시나리오 63개(126회 호출)와 인증 추가 20회가 통과했습니다. 고유 API 78/309개가 실제 실행되었으며 전체 API 전수 검증을 뜻하지 않습니다. <a href="https://github.com/Kiim-Miin-Su/taco-portfolio/blob/main/docs/evidence/api-public-http.json" target="_blank" rel="noopener noreferrer">검증 기록 ↗</a></p></div></details></div>
+      <div class="container">
+        <div class="section-heading"><h2 id="work-heading">프로젝트</h2><p>화면과 자료는 실제 작업물에서 가져왔습니다</p></div>
+        <article class="project-feature">
+          <figure class="project-image">
+            <img src="assets/taco-erp-teacher.jpg" alt="TACO ERP 공개 체험판의 강사용 학생·교재 화면" width="1512" height="772" loading="lazy">
+            <figcaption>공개 체험판 · 강사 화면</figcaption>
+          </figure>
+          <div class="project-copy">
+            <p class="project-kind">ERP · 2026</p>
+            <h3>TACO ERP</h3>
+            <p>학원 운영의 일정·출결·상담·회계 업무를 다루는 백오피스입니다. NestJS API, PostgreSQL 데이터 모델, Next.js 화면을 설계·구현했습니다.</p>
+            <ul class="fact-list">
+              <li>역할: 요구사항 분석부터 배포까지 1인 개발</li>
+              <li>공개 체험판: 실제 업무 로직과 합성 데이터 사용</li>
+            </ul>
+            <div class="tag-list"><span>NestJS</span><span>Next.js</span><span>PostgreSQL</span><span>TypeORM</span></div>
+            <div class="project-links">
+              <a href="https://taco-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">공개 체험판 ↗</a>
+              <a href="https://github.com/Kiim-Miin-Su/taco-portfolio" target="_blank" rel="noopener noreferrer">저장소 ↗</a>
+            </div>
+            <details class="case-details">
+              <summary>검증 범위</summary>
+              <p>공개 문서 기준 통합 시나리오 63개(126회 호출)와 인증 추가 20회가 통과했습니다. 고유 API 78/309개가 실제 실행되었으며, 전체 API 전수 검증은 아닙니다. <a href="https://github.com/Kiim-Miin-Su/taco-portfolio/blob/main/docs/evidence/api-public-http.json" target="_blank" rel="noopener noreferrer">검증 기록 ↗</a></p>
+            </details>
+          </div>
         </article>
         <div class="project-grid">
-          <article class="project-card"><div class="card-art art-lms" aria-hidden="true"><div class="lms-screen"><div class="lms-top"><span>LEARNING / 01</span><b>◌</b></div><div class="lms-cover"><span>AI</span><i>EDUCATION PLATFORM</i></div><div class="lms-bars"><i></i><i></i><i></i></div></div><span class="art-corner">02 ↗</span></div><div class="card-copy"><div class="project-number">02 <span>／ WEB PLATFORM</span></div><h3>AI Edu LMS</h3><p>운영자·강사·학습자 역할에 맞춰 화면과 API를 분리한 교육 플랫폼입니다. Next.js 프론트엔드와 NestJS·Prisma 기반 REST API를 연결했습니다.</p><div class="tag-list"><span>Next.js</span><span>NestJS</span><span>Prisma</span></div><div class="project-links"><a href="https://github.com/Kiim-Miin-Su/kit-front" target="_blank" rel="noopener noreferrer">FRONTEND ↗</a><a href="https://github.com/Kiim-Miin-Su/kit-back" target="_blank" rel="noopener noreferrer">BACKEND ↗</a></div><details class="case-details"><summary>구현 범위 보기</summary><div class="case-detail-body"><p><strong>구성.</strong> Next.js App Router의 역할별 화면과 NestJS REST API, Prisma·PostgreSQL 저장소로 분리했습니다.</p><p><strong>확인.</strong> 공개된 프론트엔드·백엔드 README에서 실행 절차와 API 구성을 확인할 수 있습니다. AI 연동은 저장소의 구현 범위에 따라 확인해 주세요.</p></div></details></div></article>
-          <article class="project-card"><div class="card-art art-research" aria-hidden="true"><div class="research-path"><span class="research-dot"></span><span class="research-dot active"></span><span class="research-dot"></span><span class="research-dot active"></span><span class="research-dot"></span><span class="research-dot active"></span><span class="research-dot"></span></div><span class="research-label">FRAME SELECTION<br><strong>VARIANCE-AWARE</strong></span><span class="art-corner">03 ↗</span></div><div class="card-copy"><div class="project-number">03 <span>／ AI RESEARCH</span></div><h3>VA-AFS</h3><p>영상에서 움직임의 변화를 고려해 중요한 프레임을 선택하는 Adaptive Frame Sampling 연구 및 재현 실험입니다.</p><div class="tag-list"><span>Python</span><span>PyTorch</span><span>Computer Vision</span></div><div class="project-links"><a href="https://github.com/Kiim-Miin-Su/VA-AFS" target="_blank" rel="noopener noreferrer">연구 코드 보기 <span aria-hidden="true">↗</span></a></div><details class="case-details"><summary>실험 방식 보기</summary><div class="case-detail-body"><p><strong>문제.</strong> 영상의 모든 프레임을 같은 비중으로 처리할 때 중요한 움직임을 효율적으로 고르는 방법을 탐색했습니다.</p><p><strong>실험.</strong> MediaPipe로 skeleton 좌표를 추출하고 분산을 반영한 기준으로 프레임을 선택합니다. BlockGCN 성능 비교 절차를 저장소에 문서화했습니다.</p><p><strong>결과 표기.</strong> 공개 README에 정확도 수치가 확정되어 있지 않아 성능 개선 수치를 주장하지 않습니다.</p></div></details></div></article>
+          <article class="project-card">
+            <figure class="project-image">
+              <img src="assets/ai-edu-repository.png" alt="AI Edu LMS 프론트엔드 공개 GitHub 저장소의 브라우저 화면" width="1440" height="900" loading="lazy">
+              <figcaption>공개 저장소 화면 · 제품 UI 아님</figcaption>
+            </figure>
+            <div class="project-copy">
+              <p class="project-kind">교육 플랫폼</p>
+              <h3>AI Edu LMS</h3>
+              <p>운영자·강사·학습자 역할별 화면과 API를 분리한 교육 플랫폼입니다. Next.js 프론트엔드와 NestJS·Prisma 기반 REST API를 연결했습니다.</p>
+              <div class="tag-list"><span>Next.js</span><span>NestJS</span><span>Prisma</span></div>
+              <div class="project-links">
+                <a href="https://github.com/Kiim-Miin-Su/kit-front" target="_blank" rel="noopener noreferrer">프론트엔드 ↗</a>
+                <a href="https://github.com/Kiim-Miin-Su/kit-back" target="_blank" rel="noopener noreferrer">백엔드 ↗</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <figure class="project-image project-image-contain">
+              <img src="assets/va-afs-pdf.png" alt="VA-AFS 발표 PDF의 영상 프레임, 스켈레톤 좌표와 그래프 도식" width="700" height="600" loading="lazy">
+              <figcaption>VA-AFS 발표 PDF · 첫 장의 도식</figcaption>
+            </figure>
+            <div class="project-copy">
+              <p class="project-kind">영상 처리 연구 · 2026</p>
+              <h3>VA-AFS</h3>
+              <p>영상의 움직임 변화를 반영해 프레임을 선택하는 방법을 구현하고, BlockGCN 비교 실험 절차를 문서화했습니다.</p>
+              <div class="tag-list"><span>Python</span><span>PyTorch</span><span>Computer Vision</span></div>
+              <div class="project-links"><a href="https://github.com/Kiim-Miin-Su/VA-AFS" target="_blank" rel="noopener noreferrer">연구 저장소 ↗</a></div>
+            </div>
+          </article>
         </div>
-        <a class="all-work" href="https://github.com/Kiim-Miin-Su?tab=repositories" target="_blank" rel="noopener noreferrer"><span>더 많은 작업은 GitHub에서 확인할 수 있습니다.</span><span aria-hidden="true">↗</span></a>
+        <a class="all-work" href="https://github.com/Kiim-Miin-Su?tab=repositories" target="_blank" rel="noopener noreferrer">다른 저장소 보기 ↗</a>
       </div>
     </section>
 
     <section class="intro section-pad" id="about" aria-labelledby="about-heading">
-      <div class="container intro-grid">
-        <div class="section-side"><span class="section-index">02 / ABOUT</span><span class="section-line"></span></div>
-        <div class="intro-content"><p class="kicker">BUILDING WITH PURPOSE</p><h2 id="about-heading">문제를 이해하고,<br><span>작동하는 답을 만듭니다.</span></h2><p class="intro-lead">학원 운영 ERP를 혼자 설계·구현하며 프론트엔드, API, 데이터베이스와 배포까지 연결했습니다. 이제 백엔드의 설계 역량에 인공지능공학에서 배운 모델 이해를 더하고 있습니다.</p>
-          <div class="principles"><div><span class="principle-no">01</span><h3>설계부터 배포까지</h3><p>요구사항을 기능으로 풀고 데이터와 화면, 서버가 같은 목표를 향하도록 설계합니다.</p></div><div><span class="principle-no">02</span><h3>기술보다 문제 먼저</h3><p>현장 업무와 사용 흐름을 이해한 뒤 필요한 구조와 기술을 선택합니다.</p></div><div><span class="principle-no">03</span><h3>검증 가능한 학습</h3><p>실제 구현과 실험 결과를 기록하고, 배우는 기술은 경력과 구분해 다룹니다.</p></div></div>
+      <div class="container two-column">
+        <div><h2 id="about-heading">기본 정보</h2><p class="section-note">프로젝트와 연락처를 확인할 수 있는 공개 정보입니다</p></div>
+        <dl class="info-list">
+          <div><dt>이름</dt><dd>김민수</dd></div>
+          <div><dt>분야</dt><dd>백엔드 개발 · 웹 서비스</dd></div>
+          <div><dt>이메일</dt><dd><a href="mailto:kms545487@gmail.com">kms545487@gmail.com ↗</a></dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">Kiim-Miin-Su ↗</a></dd></div>
+          <div><dt>개발 기록</dt><dd><a href="https://kms545487.tistory.com" target="_blank" rel="noopener noreferrer">kms545487.tistory.com ↗</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="capabilities section-pad" aria-labelledby="skills-heading">
+      <div class="container two-column">
+        <div><h2 id="skills-heading">사용 기술</h2><p class="section-note">프로젝트에서 사용한 기술 중심</p></div>
+        <dl class="info-list">
+          <div><dt>백엔드</dt><dd>NestJS · TypeScript · TypeORM · Prisma · Java · Spring Boot</dd></div>
+          <div><dt>프론트엔드</dt><dd>Next.js · React</dd></div>
+          <div><dt>데이터·배포</dt><dd>PostgreSQL · Docker · Vercel · AWS Serverless</dd></div>
+          <div><dt>연구</dt><dd>Python · PyTorch · scikit-learn</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="journey section-pad" id="journey" aria-labelledby="journey-heading">
+      <div class="container two-column">
+        <div><h2 id="journey-heading">경력·학력</h2><p class="section-note">재직과 수학 이력을 구분해 정리했습니다</p></div>
+        <div class="history">
+          <h3>경력</h3>
+          <ul class="history-list">
+            <li><time>2026.06 — 2026.10</time><div><strong>TN Academy (주식회사 TN그룹)</strong><span>프리랜서 개발자 · ERP 및 업무 자동화 기능 설계·구현·배포</span></div></li>
+          </ul>
+          <h3>학력</h3>
+          <ul class="history-list">
+            <li><time>2026</time><div><strong>조선대학교 인공지능공학과</strong><span>수학 · VA-AFS 연구, Safe Sight 프로젝트</span></div></li>
+            <li><time>2025</time><div><strong>한국방송통신대학교 컴퓨터과학과</strong><span>수학</span></div></li>
+            <li><time>2019 — 2024</time><div><strong>서울예술대학교 싱어송라이터 전공</strong><span>전문학사 졸업</span></div></li>
+          </ul>
+          <h3>자격·수료</h3>
+          <ul class="history-list">
+            <li><time>2025</time><div><strong>정보처리산업기사</strong></div></li>
+            <li><time>2026</time><div><strong>LG Aimers 9기 수료</strong></div></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section class="capabilities section-pad" aria-labelledby="skills-heading"><div class="container"><div class="section-heading"><div><span class="section-index">03 / TOOLKIT</span><h2 id="skills-heading">쓰는 기술<span class="heading-period">.</span></h2></div><p>프로젝트에서 직접 사용한 기술을 중심으로.</p></div><div class="skill-grid"><div class="skill-group"><span class="skill-icon">{ }</span><h3>BACKEND</h3><p>NestJS · TypeScript<br>Spring Boot · Java<br>REST API · TypeORM · Prisma</p></div><div class="skill-group"><span class="skill-icon">▦</span><h3>DATA &amp; INFRA</h3><p>PostgreSQL<br>Docker · Vercel<br>AWS Serverless</p></div><div class="skill-group"><span class="skill-icon">✳</span><h3>AI &amp; PRODUCT</h3><p>Python · PyTorch<br>Scikit-learn · YOLO<br>Next.js · React</p></div></div></div></section>
+    <section class="learning section-pad" aria-labelledby="learning-heading">
+      <div class="container two-column">
+        <div><h2 id="learning-heading">현재 학습</h2><p class="section-note">경력 및 프로젝트 경험과 구분한 학습 주제</p></div>
+        <ul class="learning-list">
+          <li><strong>Spring Boot · JPA</strong><span>트랜잭션과 API 설계</span></li>
+          <li><strong>AI 활용</strong><span>문서 검색, RAG 품질 평가, Spring AI</span></li>
+          <li><strong>전달과 운영</strong><span>테스트, 관측, Docker, CI/CD</span></li>
+        </ul>
+      </div>
+    </section>
 
-    <section class="journey section-pad" id="journey" aria-labelledby="journey-heading"><div class="container journey-grid"><div class="journey-intro"><span class="section-index">04 / JOURNEY</span><h2 id="journey-heading">지나온 길,<br>앞으로의 방향<span class="heading-period">.</span></h2><p>음악에서 개발로, 제품 개발에서 AI 활용 백엔드로. 배운 것을 실제 서비스에 연결하며 방향을 넓혀 왔습니다.</p><a href="https://kms545487.tistory.com" target="_blank" rel="noopener noreferrer" class="text-link">개발 기록 읽기 <span aria-hidden="true">↗</span></a></div><div class="timeline"><div class="timeline-item"><span class="timeline-year">2026.06 — 10</span><div><h3>TN Academy · 프리랜서 개발자</h3><p>사내 1인 개발자로 ERP와 업무 자동화 기능을 설계·구현·배포했습니다.</p></div></div><div class="timeline-item"><span class="timeline-year">2026</span><div><h3>인공지능공학 · 연구와 실험</h3><p>조선대학교 인공지능공학과에서 VA-AFS 연구와 YOLO 기반 Safe Sight 프로젝트를 진행했고, LG Aimers 9기를 수료했습니다.</p></div></div><div class="timeline-item"><span class="timeline-year">2025</span><div><h3>컴퓨터과학 · 백엔드 심화 학습</h3><p>한국방송통신대학교 컴퓨터과학과에서 수학했고 정보처리산업기사를 취득했습니다. Java·Spring·데이터베이스를 계속 공부하고 있습니다.</p></div></div><div class="timeline-item"><span class="timeline-year">2019 — 2024</span><div><h3>서울예술대학교 · 싱어송라이터 전공</h3><p>전문학사 졸업. 하나를 깊이 파고드는 습관을 개발로 이어 왔습니다.</p></div></div></div></div></section>
-
-    <section class="learning section-pad" aria-labelledby="learning-heading"><div class="container learning-grid"><div><span class="section-index">05 / CURRENT DIRECTION</span><h2 id="learning-heading">지금 배우는 것<span class="heading-period">.</span></h2><p>Study 노션에 정리한 Backend · AI 로드맵을 따라, 이미 해 본 일과 앞으로 검증할 일을 구분해 학습합니다.</p></div><div class="learning-list"><div><span>01 / BACKEND</span><p>Spring Boot · JPA · 트랜잭션과 운영 가능한 API 설계</p></div><div><span>02 / AI APPLICATION</span><p>문서 검색과 RAG 품질 평가 · Spring AI · LangChain / LangGraph</p></div><div><span>03 / DELIVERY</span><p>테스트 · 관측 · Docker · CI/CD와 안전한 배포</p></div></div></div></section>
-
-    <section class="contact section-pad" id="contact" aria-labelledby="contact-heading"><div class="container contact-inner"><span class="section-index">06 / CONTACT</span><h2 id="contact-heading">같이 만들<br><em>이야기가 있나요?</em></h2><p>백엔드, AI 활용 서비스, 그리고 문제를 제품으로 바꾸는 일에 관심이 있습니다.</p><a class="contact-mail" href="mailto:kms545487@gmail.com">kms545487@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-other"><a href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://kms545487.tistory.com" target="_blank" rel="noopener noreferrer">BLOG ↗</a></div></div></section>
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <h2 id="contact-heading">연락처</h2>
+        <a class="contact-mail" href="mailto:kms545487@gmail.com">kms545487@gmail.com ↗</a>
+        <div class="contact-other"><a href="https://github.com/Kiim-Miin-Su" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://kms545487.tistory.com" target="_blank" rel="noopener noreferrer">개발 기록 ↗</a></div>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><a class="wordmark" href="#top"><span class="wordmark-icon">M<span>.</span></span><span>MIN SU KIM</span></a><span>MADE WITH INTENT · © 2026 KIM MINSU</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><span>김민수 · 백엔드 개발자</span><span>© 2026 Kim Minsu</span><a href="#top">맨 위로 ↑</a></div></footer>
 </body>
 </html>

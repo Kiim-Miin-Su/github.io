@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#111c25"/><g stroke="#34414a" opacity=".6"><path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630"/></g><circle cx="1020" cy="390" r="250" fill="none" stroke="#d7fc78" stroke-width="2"/><circle cx="1020" cy="390" r="160" fill="none" stroke="#d7fc78" stroke-width="2"/><text x="80" y="100" fill="#d7fc78" font-family="Arial,sans-serif" font-size="24" letter-spacing="8">MIN SU KIM / PORTFOLIO</text><text x="80" y="300" fill="#f6f4ef" font-family="Arial,sans-serif" font-size="75" font-weight="bold">Backend &amp; AI</text><text x="80" y="395" fill="#f6f4ef" font-family="Arial,sans-serif" font-size="75" font-weight="bold">Engineer.</text><text x="80" y="552" fill="#b8c5c8" font-family="Arial,sans-serif" font-size="26">Design · Build · Ship</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#17211e"/>
+  <text x="88" y="125" fill="#c9d3cb" font-family="Arial,sans-serif" font-size="30">Kim Minsu · Portfolio</text>
+  <text x="88" y="300" fill="#fff" font-family="Arial,sans-serif" font-size="84" font-weight="500">김민수</text>
+  <text x="88" y="392" fill="#fff" font-family="Arial,sans-serif" font-size="58">백엔드 개발자</text>
+  <path d="M88 470H1112" stroke="#718a76" stroke-width="2"/>
+  <text x="88" y="535" fill="#c9d3cb" font-family="Arial,sans-serif" font-size="28">프로젝트 · 경력 · 학력</text>
+</svg>
